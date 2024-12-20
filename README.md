@@ -101,6 +101,15 @@ Inferences: Effective predictions, faster diagnosis.
 <!--Give the results and impact as shown below-->
 This project successfully developed a real-time sign language to speech conversion system for Tamil-speaking regions.Using machine learning and speech synthesis, the system bridges the communication gap between sign language users and non-users. Further work would be on extending the gesture vocabulary and further improving the performance of the system in low-light conditions.
 
+## Future Enhacement
+
+* Expanding the gesture vocabulary to include more complex expressions and phrases.
+
+* Enhancing recognition accuracy in low-light conditions or with varied hand orientations.
+
+* Integrating with mobile platforms for on-the-go use.
+
+* Adding user customization features, such as voice modulation and gesture adaptations.
 
 ## Articles published / References
 1) Smith, J., & Johnson, R. (2019). Real-time Hand Gesture Recognition Using CNNs. Journal of Computer Vision, 45(2), 123-134.
