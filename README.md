@@ -32,6 +32,12 @@ This project aims at designing a real-time Sign Language to Speech Conversion sy
 
 * Additional Dependencies: Includes TensorFlow, gTTS (for text-to-speech), MediaPipe, OpenCV, and NumPy for efficient handling of video processing and deep learning operations.
 
+## System Overview
+
+* Our system is designed to be simple yet highly effective. It uses a standard webcam to capture hand gestures and MediaPipe to detect hand landmarks. 
+* These gestures are then classified into Tamil text using a Convolutional Neural Network (CNN). 
+* Finally, we use the Google Text-to-Speech (gTTS) API to convert this text into natural-sounding Tamil speech.
+* This entire process happens in real-time, providing a seamless interaction experience without requiring expensive hardware.
 
 
 
@@ -41,6 +47,21 @@ This project aims at designing a real-time Sign Language to Speech Conversion sy
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 ![archi diagram](https://github.com/user-attachments/assets/443ae2de-6cbd-44ca-b535-d1d5137c73fe)
+
+## Implementation Details
+
+Our project is divided into three main modules:
+
+1.	Gesture Capture and Preprocessing:
+          Gestures are captured via a webcam and preprocessed for consistency.
+2.	Gesture Classification:
+          o	Using a CNN trained on a robust dataset, the system classifies gestures into Tamil alphabets or words with an accuracy of 92% under controlled conditions.
+          o	The model performs robustly in real-world scenarios, although minor inaccuracies may occur in challenging environments like low lighting.
+          o	We used a custom dataset of Tamil Sign Language gestures, ensuring it covered a variety of hand shapes and movements. The dataset was augmented to improve the model's robustness and adaptability.
+3.	Speech Conversion:
+          The classified text is then converted into spoken Tamil using the gTTS API, ensuring real-time audio output.
+          This modular approach ensures both accuracy and practical usability in real-world scenarios.
+
 
 
 
