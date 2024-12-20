@@ -112,6 +112,7 @@ This project successfully developed a real-time sign language to speech conversi
 * Adding user customization features, such as voice modulation and gesture adaptations.
 
 ## Articles published / References
+
 1) Smith, J., & Johnson, R. (2019). Real-time Hand Gesture Recognition Using CNNs. Journal of Computer Vision, 45(2), 123-134.
 2) Kumar, A., & Patel, S. (2021). Sequential Gesture Recognition with LSTMs. IEEE Trans. on Neural Networks, 31(5), 901-912.
 3) Wang, M., Li, Y., & Chen, Z. (2020). Real-time Sign Language Recognition Using MediaPipe. Int. Journal of AI Research, 13(7), 56-67.
