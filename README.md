@@ -61,7 +61,7 @@ Our project is divided into three main modules:
 
 1.	Gesture Capture and Preprocessing:
 
-    * Gestures are captured via a webcam and preprocessed for consistency.
+   * Gestures are captured via a webcam and preprocessed for consistency.
 2.	Gesture Classification:
 
    * Using a CNN trained on a robust dataset, the system classifies gestures into Tamil alphabets or words with an accuracy of 92% under controlled conditions.
@@ -70,7 +70,7 @@ Our project is divided into three main modules:
      adaptability.
 3.	Speech Conversion:
 
-     *The classified text is then converted into spoken Tamil using the gTTS API, ensuring real-time audio output.
+   * The classified text is then converted into spoken Tamil using the gTTS API, ensuring real-time audio output.
      This modular approach ensures both accuracy and practical usability in real-world scenarios.
 
 
