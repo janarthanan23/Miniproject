@@ -60,13 +60,14 @@ This project aims at designing a real-time Sign Language to Speech Conversion sy
 Our project is divided into three main modules:
 
 1.	Gesture Capture and Preprocessing:
-          Gestures are captured via a webcam and preprocessed for consistency.
+                    * Gestures are captured via a webcam and preprocessed for consistency.
 2.	Gesture Classification:
-          o	Using a CNN trained on a robust dataset, the system classifies gestures into Tamil alphabets or words with an accuracy of 92% under controlled conditions.
-          o	The model performs robustly in real-world scenarios, although minor inaccuracies may occur in challenging environments like low lighting.
-          o	We used a custom dataset of Tamil Sign Language gestures, ensuring it covered a variety of hand shapes and movements. The dataset was augmented to improve the model's robustness and adaptability.
+          	* Using a CNN trained on a robust dataset, the system classifies gestures into Tamil alphabets or words with an accuracy of 92% under controlled conditions.
+          	* The model performs robustly in real-world scenarios, although minor inaccuracies may occur in challenging environments like low lighting.
+          	* We used a custom dataset of Tamil Sign Language gestures, ensuring it covered a variety of hand shapes and movements. The dataset was augmented to improve the model's robustness and 
+                     adaptability.
 3.	Speech Conversion:
-          The classified text is then converted into spoken Tamil using the gTTS API, ensuring real-time audio output.
+                   *The classified text is then converted into spoken Tamil using the gTTS API, ensuring real-time audio output.
           This modular approach ensures both accuracy and practical usability in real-world scenarios.
 
 
