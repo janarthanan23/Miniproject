@@ -32,6 +32,13 @@ This project aims at designing a real-time Sign Language to Speech Conversion sy
 
 * Additional Dependencies: Includes TensorFlow, gTTS (for text-to-speech), MediaPipe, OpenCV, and NumPy for efficient handling of video processing and deep learning operations.
 
+## Promblem Statement
+
+* The lack of Tamil-specific solutions has left many hearing-impaired individuals socially isolated and without access to essential services.
+* Current technologies, such as gesture-recognition gloves and Kinect systems, are often too expensive, language-specific, and dependent on specialized hardware.
+* Our project bridges this gap by developing a cost-effective, real-time system that translates Tamil Sign Language into spoken Tamil
+
+
 ## System Overview
 
 * Our system is designed to be simple yet highly effective. It uses a standard webcam to capture hand gestures and MediaPipe to detect hand landmarks. 
